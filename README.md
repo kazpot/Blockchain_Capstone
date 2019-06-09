@@ -5,7 +5,7 @@ Mint non-fungible tokens to represent the real estate properties and use zk-SNAR
 
 `Truffle v5.0.8 (core: 5.0.8)`
 
-`Solidity - ^0.4.24 (solc-js)`
+`Solidity - ^0.5.0 (solc-js)`
 
 `Node v11.8.0`
 
