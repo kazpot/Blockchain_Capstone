@@ -1,6 +1,16 @@
 # Real Estate Token
 Mint non-fungible tokens to represent the real estate properties and use zk-SNARKs to create a verification system which can prove the title to the property without revealing that specific information on the property. After verification, the tokens will be placed into the blockchain market place named OpenSea. 
 
+# Version
+
+`Truffle v5.0.8 (core: 5.0.8)`
+
+`Solidity - ^0.4.24 (solc-js)`
+
+`Node v11.8.0`
+
+`Web3.js v1.0.0-beta.37`
+
 # Install
 `npm install`
 

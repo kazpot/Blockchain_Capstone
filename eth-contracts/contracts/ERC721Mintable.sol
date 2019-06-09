@@ -171,8 +171,7 @@ contract ERC721 is Pausable, ERC165 {
         require(to != ownerOf(tokenId), "The given address must not be the owner of the tokenId");
 
         // TODO require the msg sender to be the owner of the contract or isApprovedForAll() to be true
-        require(msg.sender == getOwner(), "msg sender must be the owner of contract");
-        require(isApprovedForAll(msg.sender, to), "operator must be approved by a given owner");
+        require(msg.sender == super.getOwner(), "msg sender must be the owner of contract");
 
         // TODO add 'to' address to token approvals
         _tokenApprovals[tokenId] = to;
@@ -278,6 +277,7 @@ contract ERC721 is Pausable, ERC165 {
         _clearApproval(tokenId);
 
         // TODO: update token counts & transfer ownership of the token ID
+        _ownedTokensCount[from].decrement();
         _ownedTokensCount[to].increment();
         _tokenOwner[tokenId] = to;
 
