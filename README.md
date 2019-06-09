@@ -9,8 +9,6 @@ Mint non-fungible tokens to represent the real estate properties and use zk-SNAR
 
 `Node v11.8.0`
 
-`Web3.js v1.0.0-beta.37`
-
 # Install
 `npm install`
 
