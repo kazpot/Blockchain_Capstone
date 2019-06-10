@@ -559,7 +559,7 @@ contract CustomERC721Token is ERC721Metadata {
 
     }
 
-    function mint(address to, uint256 tokenId) onlyOwner external payable returns (bool) {
+    function mint(address to, uint256 tokenId) onlyOwner public payable returns (bool) {
         super._mint(to, tokenId);
         super.setTokenURI(tokenId);
         return true;

@@ -68,8 +68,9 @@ Create smart contract named verifier.sol
 
 `cd eth-contract`
 
-`truffle test`
+`truffle dev`
 
+`truffle(develop)> test`
 
 # Project Resources
 
