@@ -1,7 +1,7 @@
 # Real Estate Token
 Mint non-fungible tokens to represent the real estate properties and use zk-SNARKs to create a verification system which can prove the title to the property without revealing that specific information on the property. After verification, the tokens will be placed into the blockchain market place named OpenSea. 
 
-# Version
+## Version
 
 `Truffle v5.0.8 (core: 5.0.8)`
 
@@ -9,10 +9,10 @@ Mint non-fungible tokens to represent the real estate properties and use zk-SNAR
 
 `Node v11.8.0`
 
-# Install
+## Install
 `npm install`
 
-# Implement Zokrates
+## Implement Zokrates
 
 ### Step 1: Run ZoKrates
 `docker run -v <path to your project folder>:/home/zokrates/code -ti zokrates/zokrates /bin/bash`
@@ -56,26 +56,26 @@ Create smart contract named verifier.sol
 ### Helpful Document
 [How to prove knowledge using Zokrates](https://zokrates.github.io/sha256example.html)
 
-# Compile contracts
+## Compile contracts
 
 `cd eth-contract`
 
 `truffle compile`
 
-# Deploy to Rinkeby
+## Deploy to Rinkeby
 
 `cd eth-contracts`
 
 `truffle migrate --network rinkeby`
 
-# Contract Addresses
+## Contract Addresses
 ```
 Contract Owner: 0x2D54e4392aD68D616ce936769ABB00f331379C2F
 Verifier: 0x33EC0A33b7875CF96329e90f58B253Efd3EC48F4
 SolnSquareVerifier: 0x212d96bD26B531B04Ee878C96F0EeD3966916EB2
 ```
 
-# Mint Token at Rinkeby network
+## Mint Token at Rinkeby network
 
 `cd minter`
 
@@ -83,10 +83,10 @@ SolnSquareVerifier: 0x212d96bD26B531B04Ee878C96F0EeD3966916EB2
 
 `node minter.js`
 
-# OpenSea MarketPlace Storefront link
+## OpenSea MarketPlace Storefront link
 [https://rinkeby.opensea.io/category/unidentifiedcontractv49](https://rinkeby.opensea.io/category/unidentifiedcontractv49)
 
-# Test
+## Test
 
 `ganache-cli -m "candy maple cake sugar pudding cream honey rich smooth crumble sweet treat"`
 
@@ -96,7 +96,7 @@ SolnSquareVerifier: 0x212d96bD26B531B04Ee878C96F0EeD3966916EB2
 
 `truffle(develop)> test`
 
-# Project Resources
+## Project Resources
 
 * [Remix - Solidity IDE](https://remix.ethereum.org/)
 * [Visual Studio Code](https://code.visualstudio.com/)
