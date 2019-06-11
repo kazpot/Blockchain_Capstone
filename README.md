@@ -69,9 +69,11 @@ Create smart contract named verifier.sol
 `truffle migrate --network rinkeby`
 
 # Contract Addresses
+```
 Contract Owner: 0x2D54e4392aD68D616ce936769ABB00f331379C2F
 Verifier: 0x33EC0A33b7875CF96329e90f58B253Efd3EC48F4
 SolnSquareVerifier: 0x212d96bD26B531B04Ee878C96F0EeD3966916EB2
+```
 
 # Mint Token at Rinkeby network
 
